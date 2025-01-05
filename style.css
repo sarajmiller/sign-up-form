@@ -8,6 +8,8 @@ body {
 .page-content {
     align-items: center;
     justify-content: flex-start;
+    display: flex;
+    height: 100vh;
 }
 
 .image-wrapper {
@@ -15,6 +17,7 @@ body {
     width: 30%;
     overflow: hidden;
     position: relative;
+    display: flex;
     margin-right: 20px;
     z-index: 1;
 }
@@ -23,9 +26,16 @@ body {
     height: 100%;
     width: auto;
     object-fit: cover;
-    display: block;
+    display: flex;
     overflow: hidden;
-    overflow-clip-margin: inherit;
+}
+
+
+.content-wrapper {
+    flex: 1; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: flex-start; 
 }
 
 .header {
