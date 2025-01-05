@@ -17,7 +17,46 @@
                 Hi, welcome to my sign-up form! Sign up now to get started.
             </h2>
             <div class="signup-wrapper">
-                <p>Well...</p>
+                <p>Let's do this! Fill out the following fields:</p>
+                <fieldset>
+                    <legend>Contact Details:</legend>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="first_name">First Name:</label>
+                            <input type="text" id="first_name" name="first_name">
+                        </div>
+                        <div class="form-group">
+                            <label for="last_name">Last Name:</label>
+                            <input type="text" id="last_name" name="last_name">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="text" id="email" name="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone-number">Phone Number:</label>
+                            <input type="text" id="phone-number" name="phone-number">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="password">Password:</label>
+                            <input type="text" id="password" name="password" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="confirm-password">Confirm Password:</label>
+                            <input type="text" id="confirm-password" name="confirm-password" required>
+                        </div>
+                    </div>
+                    
+                </fieldset>
+            </div>
+            <button type="submit">Create Account</button>
+            <div class="log-in">
+                <p>Already have an account?   </p>
+                <p id="log-in"> Log in.</p>
             </div>
         </div>
     </div>
