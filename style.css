@@ -60,26 +60,27 @@ body {
     padding-left: 40px;
     padding-right: 20px;
     z-index: 0;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     font-size: 20px;
 }
 
 fieldset {
     display: block;
     border-width: 0px;
+    width: 80%
 }
 
 .form-row {
     display: flex;
     gap: 20px;
     margin-bottom: 20px;
-    width: 90%;
 }
 
 .form-group {
     display: flex;
     flex-direction: column;
     flex: 1;
+    margin-right: 50px;
 }
 
 label {
@@ -91,6 +92,16 @@ label {
 
 p {
     display: block;
+}
+
+input {
+    border-radius: 4px;
+    height: 20px;
+    border: 2px solid white;
+}
+
+input:invalid {
+    border: 2px solid #d1007a;
 }
 
 button[type='submit'] {
