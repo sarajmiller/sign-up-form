@@ -21,13 +21,28 @@ body {
     display: flex;
     margin-right: 20px;
     z-index: 1;
+    text-align: center;
+}
+
+.img-credit {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: black;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px 0px 20px 0px;
+}
+
+.img-credit a {
+    color: white;
 }
 
 .cherry-trees {
     height: 100%;
     width: auto;
     object-fit: cover;
-    display: flex;
+    display: block;
     overflow: hidden;
 }
 
